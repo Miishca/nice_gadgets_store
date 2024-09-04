@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './Categories.module.scss';
 import { Link } from 'react-router-dom';
 import { ShopByCategoryMap } from '../Helpers/ShopByCategoryMap';
-import { getProductsByCategory } from '../../../../servises/Products';
+import { getProductsByCategory } from '../../../../services/Products';
 import { BASE_URL } from '../../../../utils/const';
 
 export const Categories: React.FC = () => {

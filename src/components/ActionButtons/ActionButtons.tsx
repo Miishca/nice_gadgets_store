@@ -2,7 +2,7 @@ import React from 'react';
 import { useAppContext } from '../../context/AppContext';
 import { useTheme } from '../../context/ThemeContext';
 import { Product } from '../../types/Product';
-import { getFavoritesIconSrc } from '../../servises/iconSrc';
+import { getFavoritesIconSrc } from '../../services/iconSrc';
 import styles from './ActionButtons.module.scss';
 import { BASE_URL } from '../../utils/const';
 

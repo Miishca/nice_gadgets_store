@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './CartPage.module.scss';
 import { useAppContext } from '../../context/AppContext';
 import { useNavigate } from 'react-router-dom';
-import { getChevronIconSrc } from '../../servises/iconSrc';
+import { getChevronIconSrc } from '../../services/iconSrc';
 import { useTheme } from '../../context/ThemeContext';
 import { CartItem } from './CartItem';
 

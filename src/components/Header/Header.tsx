@@ -11,9 +11,10 @@ import {
   getLogoIconSrc,
   getCartIconSrc,
   getFavoritesIconSrc,
-} from '../../servises/iconSrc';
+} from '../../services/iconSrc';
 import { useAppContext } from '../../context/AppContext';
 import { Search } from '../Search/Search';
+import { useEffect } from 'react';
 
 const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
   const { theme } = useTheme();
@@ -27,6 +28,18 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
   const logoIconSrs = getLogoIconSrc(theme);
   const cartIconSrc = getCartIconSrc(theme);
   const favoritesIconSrc = getFavoritesIconSrc(theme);
+
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isMenuOpen]);
 
   return (
     <header className={styles.header}>

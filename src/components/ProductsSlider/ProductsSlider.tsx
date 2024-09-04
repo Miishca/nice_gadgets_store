@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './ProductsSlider.module.scss';
 import { Product } from '../../types/Product';
 import { ProductCard } from '../ProductCard';
-import { getChevronIconSrc } from '../../servises/iconSrc';
+import { getChevronIconSrc } from '../../services/iconSrc';
 import { useTheme } from '../../context/ThemeContext';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { useSwipeable } from 'react-swipeable';

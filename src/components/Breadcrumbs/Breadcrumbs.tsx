@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import styles from './Breadcrumbs.module.scss';
-import { getChevronIconSrc, getHomeIconSrc } from '../../servises/iconSrc';
+import { getChevronIconSrc, getHomeIconSrc } from '../../services/iconSrc';
 import { useTheme } from '../../context/ThemeContext';
 import classNames from 'classnames';
 

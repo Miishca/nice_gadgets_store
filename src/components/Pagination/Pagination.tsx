@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import styles from './Pagination.module.scss';
-import { getChevronIconSrc } from '../../servises/iconSrc';
+import { getChevronIconSrc } from '../../services/iconSrc';
 import { useTheme } from '../../context/ThemeContext';
 
 interface Props {

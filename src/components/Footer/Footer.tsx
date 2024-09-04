@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import styles from './Footer.module.scss';
 import { useTheme } from '../../context/ThemeContext';
-import { getChevronIconSrc, getLogoIconSrc } from '../../servises/iconSrc';
+import { getChevronIconSrc, getLogoIconSrc } from '../../services/iconSrc';
 
 const Footer: React.FC = () => {
   const { theme } = useTheme();

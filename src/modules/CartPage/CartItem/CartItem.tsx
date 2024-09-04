@@ -6,7 +6,7 @@ import {
   getDecreaseIconSrc,
   getRemoveIconSrc,
   getIncreaseIconSrc,
-} from '../../../servises/iconSrc';
+} from '../../../services/iconSrc';
 import { useTheme } from '../../../context/ThemeContext';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames';

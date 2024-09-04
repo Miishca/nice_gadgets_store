@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './HomePage.module.scss';
 import { PicturesSlider } from './components/PicturesSlider';
 import { Categories } from './components/Categories';
-import { getHotPriceProducts, getNewProducts } from '../../servises/Products';
+import { getHotPriceProducts, getNewProducts } from '../../services/Products';
 import { Product } from '../../types/Product';
 import { Loader } from '../../components/Loader';
 import { ProductsSlider } from '../../components/ProductsSlider';

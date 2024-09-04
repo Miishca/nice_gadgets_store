@@ -5,7 +5,7 @@ import { PicturesSliderMap } from '../Helpers/PicturesSliderMap';
 import { useTheme } from '../../../../context/ThemeContext';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { useSwipeable } from 'react-swipeable';
-import { getChevronIconSrc } from '../../../../servises/iconSrc';
+import { getChevronIconSrc } from '../../../../services/iconSrc';
 import { Link } from 'react-router-dom';
 import { BASE_URL } from '../../../../utils/const';
 

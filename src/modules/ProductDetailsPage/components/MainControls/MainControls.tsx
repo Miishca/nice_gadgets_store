@@ -5,7 +5,7 @@ import { ProductDetails } from '../../../../types/ProductDetails';
 import { ActionButtons } from '../../../../components/ActionButtons';
 import { Product } from '../../../../types/Product';
 // eslint-disable-next-line max-len
-import { fetchProductByColorAndCapacity } from '../../../../servises/ProductsDetails';
+import { fetchProductByColorAndCapacity } from '../../../../services/ProductsDetails';
 import { useNavigate } from 'react-router-dom';
 
 type Props = {

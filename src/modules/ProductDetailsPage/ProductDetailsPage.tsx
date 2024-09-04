@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ProductDetails } from '../../types/ProductDetails';
-import { getProductDetails } from '../../servises/ProductsDetails';
+import { getProductDetails } from '../../services/ProductsDetails';
 import styles from './ProductDetailsPage.module.scss';
 import { Breadcrumbs } from '../../components/Breadcrumbs/Breadcrumbs';
-import { getChevronIconSrc } from '../../servises/iconSrc';
+import { getChevronIconSrc } from '../../services/iconSrc';
 import { useTheme } from '../../context/ThemeContext';
 import { Product } from '../../types/Product';
-import { getAllProducts, getSuggestedProducts } from '../../servises/Products';
+import { getAllProducts, getSuggestedProducts } from '../../services/Products';
 import { ImageGallery } from './components/ImageGallery';
 import { TechSpecs } from './components/TechSpecs';
 import { Description } from './components/Description';

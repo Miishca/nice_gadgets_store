@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { getProductsByCategory } from '../../servises/Products';
+import { getProductsByCategory } from '../../services/Products';
 import { Product } from '../../types/Product';
 import { Breadcrumbs } from '../Breadcrumbs';
 import styles from './ProductsList.module.scss';
